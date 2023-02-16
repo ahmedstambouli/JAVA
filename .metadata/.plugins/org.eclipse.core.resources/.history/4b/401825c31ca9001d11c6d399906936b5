@@ -1,0 +1,8 @@
+package TP1;
+
+public class Voiture {
+
+	String immatriculation ;
+	String marque ;
+	float prix;
+}

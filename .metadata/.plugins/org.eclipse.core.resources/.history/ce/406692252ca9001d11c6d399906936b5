@@ -1,0 +1,16 @@
+package TP1;
+
+public class Client {
+	
+	private int code;
+	private String nom;
+	private String prenom;
+	private Voiture tabv [];
+	
+	
+	public Client(int code , String nom ,String prenom , Voiture vtab [])
+	{
+		
+	}
+
+}

@@ -1,0 +1,55 @@
+package TP1;
+
+import java.util.Iterator;
+
+public class Client {
+	
+	private int code;
+	private String nom;
+	private String prenom;
+	private Voiture tabv []; //=new Voiture[5]
+	private int nbvoitures = 0;
+	
+	public Client(int code , String nom ,String prenom )
+	{
+		this.code=code;
+		this.nom=nom;
+		this.prenom=prenom;
+		tabv=new Voiture[5];
+	}
+	
+	public void louerVoitur(Voiture v)
+	{
+		if (nbvoitures < tabv.length)
+		{
+			int i=0;
+			while(tabv[i] != null)
+			{i++}
+			tabv[nbvoitures] = v;
+			nbvoitures++;
+		}
+		
+		
+	}
+	
+	public boolean rendreVoiture(Voiture v)
+	{
+		boolean trouve =false;
+		
+		for(int i=0;i<tabv.length;i++)
+		{
+			if(tabv[i] != null)
+			{
+				if(tabv[i].equals(v)==true)
+				{
+					trouve=true;
+					tabv[i]= null;
+					nbvoitures--;
+
+				}
+			}
+		}
+		return true;
+	}
+
+}

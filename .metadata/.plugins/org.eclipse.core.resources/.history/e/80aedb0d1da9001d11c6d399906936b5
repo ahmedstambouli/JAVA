@@ -1,0 +1,14 @@
+package TP1;
+
+public class Voiture 
+
+{
+
+	private String immatriculation =" " ;
+	private String marque =" " ;
+	private float prix;
+	
+	
+	
+	
+	}

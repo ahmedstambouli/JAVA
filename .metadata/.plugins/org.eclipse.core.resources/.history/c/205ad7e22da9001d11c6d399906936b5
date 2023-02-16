@@ -1,0 +1,19 @@
+package TP1;
+
+public class Client {
+	
+	private int code;
+	private String nom;
+	private String prenom;
+	private Voiture tabv [] = new Voiture[5];
+	
+	
+	public Client(int code , String nom ,String prenom )
+	{
+		this.code=code;
+		this.nom=nom;
+		this.prenom=prenom;
+		
+	}
+
+}

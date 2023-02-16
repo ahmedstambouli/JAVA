@@ -1,0 +1,60 @@
+package TP1;
+
+public class Voiture 
+
+{
+
+	private String immatriculation =" " ;
+	private String marque =" " ;
+	private float prix;
+	
+	public String getImmatriculation ()
+	{
+		return immatriculation;
+	}
+	
+	public String getMarque ()
+	{
+		return marque;
+	}
+	
+	public float getPrix()
+	{
+		return prix;
+	}
+	
+	public void setImmatriculation(String im)
+	{
+		immatriculation=im;
+	}
+	
+	public void setMarque (String ma)
+	{
+		marque=ma;
+	}
+	
+	public void setPrix(float p)
+	{
+		prix=p;
+	}
+	
+	
+	public Voiture ()
+	{
+		immatriculation="";
+		marque="";
+		prix=0;
+	}
+	
+	public Voiture (String ima , String mar , float pr)
+	{
+		immatriculation=ima;
+		marque=mar;
+		prix=pr;
+	}
+	
+	
+	
+	
+	
+	}

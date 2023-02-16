@@ -1,0 +1,21 @@
+package Seance2;
+
+import seance1.Robot;
+public class TestCercle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Robot R1 = new Robot(1,2,45);
+		R1.abs=4;
+		R1.ord=6;
+		R1.ori=50;
+		System.out.println(R1);*/
+		
+		String ch1="bonjour";
+		String ch2=new String("bonjour");
+
+		System.out.println(ch1==ch2);
+		System.out.println(ch1.equals(ch2));
+	}
+
+}

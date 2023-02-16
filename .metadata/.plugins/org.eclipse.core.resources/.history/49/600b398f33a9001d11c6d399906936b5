@@ -1,0 +1,22 @@
+package TP1;
+
+public class TestTp1 
+
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Voiture V1 =new Voiture("120 TN 1254", "Peugeot 206 ", 2500.000);
+		Voiture V2 =new Voiture("121 TN 1255", "BMW X5 ", 3000.000);
+		Voiture V3 =new Voiture("122 TN 1256", "audi  ", 5000.000);
+		Client c1 =new  Client(1, "ahmed", "stambouli");
+		Client c2 =new  Client(2, "aziz", "stambouli");
+		Client c3 =new  Client(3, "dali", "kabair");
+
+		c1.louerVoitur(V3);
+		//System.out.println(V1.equals(V2));
+				
+				
+	}
+
+}

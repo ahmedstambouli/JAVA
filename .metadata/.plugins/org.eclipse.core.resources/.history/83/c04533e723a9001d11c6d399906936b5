@@ -1,0 +1,17 @@
+package TP1;
+
+public class TestTp1 
+
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Voiture V1 =new Voiture("120 TN 1254", "Peugeot 206 ", 2500.000);
+		Voiture V2 =new Voiture("120 TN 1254", "Peugeot 206 ", 3000.000);
+		
+		
+				
+				
+	}
+
+}
